@@ -1,0 +1,239 @@
+header {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+#menu {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#menu h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#menu .menu-item {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+  width: calc(33.33% - 40px);
+}
+
+#menu .menu-item img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+#menu .menu-item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#menu .menu-item p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+#reservasi {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#reservasi h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#reservasi form label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#reservasi form input,
+#reservasi form textarea {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+
+#reservasi form input:focus,
+#reservasi form textarea:focus {
+  outline: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#reservasi form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#reservasi form input[type="submit"]:hover {
+  background-color: #666;
+}
+#kontak {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#kontak h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#kontak form label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#kontak form input,
+#kontak form textarea {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+
+#kontak form input:focus,
+#kontak form textarea:focus {
+  outline: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#kontak form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#kontak form input[type="submit"]:hover {
+  background-color: #666;
+}
+/* Navigasi (Navbar) */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+/* Membuat Logo Tengah */
+nav .logo {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav .logo a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .logo a:hover {
+  color: #666;
+}
+
+/* Membuat Tombol Reservasi */
+nav .reservasi {
+  text-align: right;
+}
+
+nav .reservasi a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav .reservasi a:hover {
+  background-color: #666;
+}
